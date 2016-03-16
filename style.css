@@ -38,7 +38,7 @@
 .quizz .answers {
     display : -webkit-flex;
     display : -ms-flexbox;
-    display : flex;
+    display : table-row;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
@@ -50,12 +50,12 @@
     width: calc(50% - 10px);
     display : -webkit-flex;
     display : -ms-flexbox;
-    display : flex;
+    display : table-row;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
     background: lightgray;
-    margin: 5px;
+    margin: 20px;
 }
 .answers button {
     margin-top: 50px;
