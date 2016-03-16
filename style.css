@@ -36,27 +36,24 @@
     height: 50px;
 }
 .answers {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    display : -webkit-flex;
+    display : -ms-flexbox;
+    display : flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 50px
 }
 
 .answer {
     height: 50px;
     width: calc(50% - 10px);
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display : -webkit-flex;
+    display : -ms-flexbox;
+    display : flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background: lightgray;
     margin: 5px;
 }
