@@ -35,7 +35,7 @@
     margin-top: 50px;
     height: 50px;
 }
-.answers {
+.quizz .answers {
     display : -webkit-flex;
     display : -ms-flexbox;
     display : flex;
@@ -45,7 +45,7 @@
     margin-top: 50px
 }
 
-.answer {
+.answers {
     height: 50px;
     width: calc(50% - 10px);
     display : -webkit-flex;
@@ -56,6 +56,10 @@
             flex-direction: column;
     background: lightgray;
     margin: 5px;
+}
+.answers button {
+    margin-top: 50px;
+    height: 50px;
 }
 
 .start-timer {
