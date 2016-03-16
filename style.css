@@ -23,6 +23,12 @@
 	display: block;
 }
 
+.welcome {
+    position: absolute;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: medium;
+    
+}
 .start .buttons {
 	display : -webkit-flex;
 	display : -ms-flexbox;
@@ -30,6 +36,7 @@
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
+    position
 }
 .buttons button {
     margin-top: 50px;
